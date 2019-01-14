@@ -1,0 +1,19 @@
+//
+//  Tsting-CollectionViewLayout.pch
+//  Tsting-CollectionViewLayout
+//
+//  Created by bonlion on 2018/9/5.
+//  Copyright © 2018年 dasui. All rights reserved.
+//
+
+#ifndef Tsting_CollectionViewLayout_pch
+#define Tsting_CollectionViewLayout_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+
+#define RandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.f green:arc4random_uniform(255)/255.f blue:arc4random_uniform(255)/255.f alpha:1.f]
+
+#endif /* Tsting_CollectionViewLayout_pch */
